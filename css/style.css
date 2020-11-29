@@ -10,6 +10,8 @@ body {
     justify-content: center;
     display: flex;
     overflow: hidden;
+    background-image: url(../img/bg.jpg); 
+    background-size: 110%;
 }
 
 .container {
@@ -94,4 +96,35 @@ p {
     border: 5px solid #efefef;
     background-color: #efefef;
     display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .content {
+        flex-direction: column;
+    }
+
+    .content .left {
+        width: 100%;
+        text-align: center;
+    }
+
+    .button {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .content .right {
+        width: 100%;
+        margin-top: 10px;
+    } 
+
+    .qr {
+        display: none !important;
+    }
+
+    .container-fluid {
+        background-image: url(../img/bg-mobile.jpg); 
+        background-size: cover; 
+    }
+    
 }
