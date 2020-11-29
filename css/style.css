@@ -127,4 +127,8 @@ p {
         background-size: cover; 
     }
     
+    .content .left {
+        padding-right: 0;
+    }
+    
 }
