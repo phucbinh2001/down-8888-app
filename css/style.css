@@ -131,4 +131,9 @@ p {
         padding-right: 0;
     }
     
+    .content .left p {
+        width: 100%;
+    }
+}
+    
 }
